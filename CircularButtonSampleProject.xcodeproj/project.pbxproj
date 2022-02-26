@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EDF64DDC27CA459A00F24781 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64DDB27CA459A00F24781 /* AppDelegate.swift */; };
+		EDF64DDE27CA459A00F24781 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64DDD27CA459A00F24781 /* SceneDelegate.swift */; };
+		EDF64DE027CA459A00F24781 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64DDF27CA459A00F24781 /* ViewController.swift */; };
+		EDF64DE327CA459A00F24781 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF64DE127CA459A00F24781 /* Main.storyboard */; };
+		EDF64DE527CA459C00F24781 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDF64DE427CA459C00F24781 /* Assets.xcassets */; };
+		EDF64DE827CA459C00F24781 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDF64DE627CA459C00F24781 /* LaunchScreen.storyboard */; };
+		EDF64DFA27CA461D00F24781 /* RotationGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64DF727CA461D00F24781 /* RotationGestureRecognizer.swift */; };
+		EDF64DFB27CA461D00F24781 /* MicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64DF827CA461D00F24781 /* MicButton.swift */; };
+		EDF64DFC27CA461D00F24781 /* MicRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64DF927CA461D00F24781 /* MicRenderer.swift */; };
+		EDF64E0027CA46E200F24781 /* CALayer+ performWithoutAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64DFF27CA46E200F24781 /* CALayer+ performWithoutAnimation.swift */; };
+		EDF64E0227CA470600F24781 /* LCTextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64E0127CA470600F24781 /* LCTextLayer.swift */; };
+		EDF64E0427CA472700F24781 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDF64E0327CA472700F24781 /* UIColor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EDF64DD827CA459A00F24781 /* CircularButtonSampleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CircularButtonSampleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDF64DDB27CA459A00F24781 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EDF64DDD27CA459A00F24781 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EDF64DDF27CA459A00F24781 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EDF64DE227CA459A00F24781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EDF64DE427CA459C00F24781 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EDF64DE727CA459C00F24781 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EDF64DE927CA459C00F24781 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDF64DF727CA461D00F24781 /* RotationGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotationGestureRecognizer.swift; sourceTree = "<group>"; };
+		EDF64DF827CA461D00F24781 /* MicButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicButton.swift; sourceTree = "<group>"; };
+		EDF64DF927CA461D00F24781 /* MicRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicRenderer.swift; sourceTree = "<group>"; };
+		EDF64DFF27CA46E200F24781 /* CALayer+ performWithoutAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CALayer+ performWithoutAnimation.swift"; sourceTree = "<group>"; };
+		EDF64E0127CA470600F24781 /* LCTextLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCTextLayer.swift; sourceTree = "<group>"; };
+		EDF64E0327CA472700F24781 /* UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EDF64DD527CA459A00F24781 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EDF64DCF27CA459A00F24781 = {
+			isa = PBXGroup;
+			children = (
+				EDF64DDA27CA459A00F24781 /* CircularButtonSampleProject */,
+				EDF64DD927CA459A00F24781 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EDF64DD927CA459A00F24781 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EDF64DD827CA459A00F24781 /* CircularButtonSampleProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EDF64DDA27CA459A00F24781 /* CircularButtonSampleProject */ = {
+			isa = PBXGroup;
+			children = (
+				EDF64DDB27CA459A00F24781 /* AppDelegate.swift */,
+				EDF64DDD27CA459A00F24781 /* SceneDelegate.swift */,
+				EDF64DFE27CA46CC00F24781 /* Utils */,
+				EDF64DFD27CA462C00F24781 /* MicBtnWithLayers */,
+				EDF64DDF27CA459A00F24781 /* ViewController.swift */,
+				EDF64DE127CA459A00F24781 /* Main.storyboard */,
+				EDF64DE427CA459C00F24781 /* Assets.xcassets */,
+				EDF64DE627CA459C00F24781 /* LaunchScreen.storyboard */,
+				EDF64DE927CA459C00F24781 /* Info.plist */,
+			);
+			path = CircularButtonSampleProject;
+			sourceTree = "<group>";
+		};
+		EDF64DFD27CA462C00F24781 /* MicBtnWithLayers */ = {
+			isa = PBXGroup;
+			children = (
+				EDF64DF827CA461D00F24781 /* MicButton.swift */,
+				EDF64DF927CA461D00F24781 /* MicRenderer.swift */,
+				EDF64DF727CA461D00F24781 /* RotationGestureRecognizer.swift */,
+			);
+			path = MicBtnWithLayers;
+			sourceTree = "<group>";
+		};
+		EDF64DFE27CA46CC00F24781 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EDF64DFF27CA46E200F24781 /* CALayer+ performWithoutAnimation.swift */,
+				EDF64E0327CA472700F24781 /* UIColor.swift */,
+				EDF64E0127CA470600F24781 /* LCTextLayer.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EDF64DD727CA459A00F24781 /* CircularButtonSampleProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EDF64DEC27CA459C00F24781 /* Build configuration list for PBXNativeTarget "CircularButtonSampleProject" */;
+			buildPhases = (
+				EDF64DD427CA459A00F24781 /* Sources */,
+				EDF64DD527CA459A00F24781 /* Frameworks */,
+				EDF64DD627CA459A00F24781 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CircularButtonSampleProject;
+			productName = CircularButtonSampleProject;
+			productReference = EDF64DD827CA459A00F24781 /* CircularButtonSampleProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EDF64DD027CA459A00F24781 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EDF64DD727CA459A00F24781 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = EDF64DD327CA459A00F24781 /* Build configuration list for PBXProject "CircularButtonSampleProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EDF64DCF27CA459A00F24781;
+			productRefGroup = EDF64DD927CA459A00F24781 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDF64DD727CA459A00F24781 /* CircularButtonSampleProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EDF64DD627CA459A00F24781 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF64DE827CA459C00F24781 /* LaunchScreen.storyboard in Resources */,
+				EDF64DE527CA459C00F24781 /* Assets.xcassets in Resources */,
+				EDF64DE327CA459A00F24781 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EDF64DD427CA459A00F24781 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF64E0027CA46E200F24781 /* CALayer+ performWithoutAnimation.swift in Sources */,
+				EDF64DFC27CA461D00F24781 /* MicRenderer.swift in Sources */,
+				EDF64DE027CA459A00F24781 /* ViewController.swift in Sources */,
+				EDF64DFB27CA461D00F24781 /* MicButton.swift in Sources */,
+				EDF64E0427CA472700F24781 /* UIColor.swift in Sources */,
+				EDF64DFA27CA461D00F24781 /* RotationGestureRecognizer.swift in Sources */,
+				EDF64E0227CA470600F24781 /* LCTextLayer.swift in Sources */,
+				EDF64DDC27CA459A00F24781 /* AppDelegate.swift in Sources */,
+				EDF64DDE27CA459A00F24781 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EDF64DE127CA459A00F24781 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF64DE227CA459A00F24781 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EDF64DE627CA459C00F24781 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDF64DE727CA459C00F24781 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EDF64DEA27CA459C00F24781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EDF64DEB27CA459C00F24781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EDF64DED27CA459C00F24781 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92CLNVKSMW;
+				INFOPLIST_FILE = CircularButtonSampleProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dreamteam.CircularButtonSampleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EDF64DEE27CA459C00F24781 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92CLNVKSMW;
+				INFOPLIST_FILE = CircularButtonSampleProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ru.dreamteam.CircularButtonSampleProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EDF64DD327CA459A00F24781 /* Build configuration list for PBXProject "CircularButtonSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF64DEA27CA459C00F24781 /* Debug */,
+				EDF64DEB27CA459C00F24781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EDF64DEC27CA459C00F24781 /* Build configuration list for PBXNativeTarget "CircularButtonSampleProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDF64DED27CA459C00F24781 /* Debug */,
+				EDF64DEE27CA459C00F24781 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EDF64DD027CA459A00F24781 /* Project object */;
+}
